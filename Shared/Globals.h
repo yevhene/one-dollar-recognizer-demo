@@ -10,6 +10,8 @@
 
 @property(readonly) NSDictionary *templates;
 
+- (void) loadTemplates;
+
 + (Globals *)instance;
 
 @end

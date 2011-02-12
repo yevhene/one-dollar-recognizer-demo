@@ -1,16 +1,17 @@
 //
-//  AppDelegate_iPhone.m
+//  AppDelegate_iPad.m
 //  one-dollar-recognizer-demo
 //
-//  Created by Yevhene Shemet on 12.02.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
-#import "AppDelegate_iPhone.h"
 
-@implementation AppDelegate_iPhone
+#import "AppDelegate.h"
 
-@synthesize window;
+#import "Globals.h"
+
+
+@implementation AppDelegate
+
+@synthesize window = _window;
 
 
 #pragma mark -
@@ -18,9 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    [[Globals instance] loadTemplates];
+
+    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+
+    _mainViewController = [[MainViewController alloc] init];
+
+    [self.window addSubview: _mainViewController.view];
+
     // Override point for customization after application launch.
 
-    [window makeKeyAndVisible];
+    [self.window makeKeyAndVisible];
 
     return YES;
 }
@@ -34,24 +43,9 @@
 }
 
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    /*
-     Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-     If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
-     */
-}
-
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    /*
-     Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
-     */
-}
-
-
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     /*
-     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+     Restart any tasks that were paused (or not yet started) while the application was inactive.
      */
 }
 
@@ -59,7 +53,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     /*
      Called when the application is about to terminate.
-     See also applicationDidEnterBackground:.
      */
 }
 
@@ -75,7 +68,9 @@
 
 
 - (void)dealloc {
-    [window release];
+    [_window release];
+    [_mainViewController release];
+
     [super dealloc];
 }
 

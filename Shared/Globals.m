@@ -8,8 +8,6 @@
 
 @interface Globals (private)
 
-- (void) loadTemplates;
-
 - (void) loadTemplateWithPath: (NSString *)path;
 
 - (NSString *)templateNameFromPath: (NSString *)path;
@@ -23,7 +21,7 @@
 
 - (id) init {
     if (self = [super init]) {
-        [self loadTemplates];
+        // blank
     }
     return self;
 }

@@ -9,15 +9,14 @@
 /* Begin PBXBuildFile section */
 		143F37B71306C50400F7547B /* triangle.template in Resources */ = {isa = PBXBuildFile; fileRef = 143F37B51306C50400F7547B /* triangle.template */; };
 		143F37B81306C50400F7547B /* x.template in Resources */ = {isa = PBXBuildFile; fileRef = 143F37B61306C50400F7547B /* x.template */; };
+		143F393A1306D3CA00F7547B /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 143F39391306D3CA00F7547B /* Globals.m */; };
+		143F39541306D64A00F7547B /* GestureRecognizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 143F39521306D64A00F7547B /* GestureRecognizerView.m */; };
+		143F3A7C1306E5A800F7547B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143F3A7B1306E5A800F7547B /* MainViewController.m */; };
 		14FD6ED713069D7E00282F5B /* libone_dollar_recognizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FD6ED413069D7700282F5B /* libone_dollar_recognizer.a */; };
-		14FD6EF713069E1700282F5B /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD6EF613069E1700282F5B /* Globals.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
-		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
-		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
-		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,18 +47,18 @@
 /* Begin PBXFileReference section */
 		143F37B51306C50400F7547B /* triangle.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = triangle.template; sourceTree = "<group>"; };
 		143F37B61306C50400F7547B /* x.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = x.template; sourceTree = "<group>"; };
+		143F39381306D3CA00F7547B /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Globals.h; path = Shared/Globals.h; sourceTree = "<group>"; };
+		143F39391306D3CA00F7547B /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Globals.m; path = Shared/Globals.m; sourceTree = "<group>"; };
+		143F39521306D64A00F7547B /* GestureRecognizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestureRecognizerView.m; path = Shared/GestureRecognizerView.m; sourceTree = "<group>"; };
+		143F39531306D64A00F7547B /* GestureRecognizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureRecognizerView.h; path = Shared/GestureRecognizerView.h; sourceTree = "<group>"; };
+		143F3A7A1306E5A800F7547B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		143F3A7B1306E5A800F7547B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		14FD6ECB13069D7600282F5B /* one-dollar-recognizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "one-dollar-recognizer.xcodeproj"; path = "../one-dollar-recognizer/one-dollar-recognizer.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		14FD6EF513069E1700282F5B /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
-		14FD6EF613069E1700282F5B /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* one-dollar-recognizer-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "one-dollar-recognizer-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
-		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
-		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
-		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
-		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* one_dollar_recognizer_demo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one_dollar_recognizer_demo_Prefix.pch; sourceTree = "<group>"; };
@@ -98,6 +97,15 @@
 			path = Templates;
 			sourceTree = "<group>";
 		};
+		143F39551306D65500F7547B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				143F39531306D64A00F7547B /* GestureRecognizerView.h */,
+				143F39521306D64A00F7547B /* GestureRecognizerView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		14FD6ECC13069D7600282F5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,9 +126,6 @@
 		2860E324111B887F00E27156 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
-				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
-				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -128,9 +133,10 @@
 		2860E32A111B888700E27156 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
-				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
-				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+				2860E32B111B888700E27156 /* AppDelegate.h */,
+				2860E32C111B888700E27156 /* AppDelegate.m */,
+				143F3A7A1306E5A800F7547B /* MainViewController.h */,
+				143F3A7B1306E5A800F7547B /* MainViewController.m */,
 			);
 			path = iPad;
 			sourceTree = "<group>";
@@ -138,9 +144,10 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				143F39551306D65500F7547B /* View */,
 				8D1107310486CEB800E47090 /* one_dollar_recognizer_demo-Info.plist */,
-				14FD6EF513069E1700282F5B /* Globals.h */,
-				14FD6EF613069E1700282F5B /* Globals.m */,
+				143F39381306D3CA00F7547B /* Globals.h */,
+				143F39391306D3CA00F7547B /* Globals.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -252,8 +259,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
-				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
 				143F37B71306C50400F7547B /* triangle.template in Resources */,
 				143F37B81306C50400F7547B /* x.template in Resources */,
 			);
@@ -267,9 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
-				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
-				14FD6EF713069E1700282F5B /* Globals.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate.m in Sources */,
+				143F393A1306D3CA00F7547B /* Globals.m in Sources */,
+				143F39541306D64A00F7547B /* GestureRecognizerView.m in Sources */,
+				143F3A7C1306E5A800F7547B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +325,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "one-dollar-recognizer/";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PREBINDING = NO;
 				SDKROOT = iphonesimulator3.2;
@@ -334,6 +341,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "one-dollar-recognizer/";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
