@@ -1,0 +1,4 @@
+build/
+
+one-dollar-recognizer-demo.xcodeproj/*.mode*
+one-dollar-recognizer-demo.xcodeproj/*.pbxuser

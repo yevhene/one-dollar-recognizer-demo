@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'one-dollar-recognizer-demo' target in the 'one-dollar-recognizer-demo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

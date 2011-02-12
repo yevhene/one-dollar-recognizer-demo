@@ -1,0 +1,3 @@
+[submodule "one-dollar-recognizer"]
+	path = one-dollar-recognizer
+	url = git@github.com:yevhene/one-dollar-recognizer.git
