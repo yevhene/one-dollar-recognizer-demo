@@ -5,7 +5,7 @@
 
 
 @interface Globals : NSObject {
-    NSDictionary *_templates;
+    NSMutableDictionary *_templates;
 }
 
 @property(readonly) NSDictionary *templates;

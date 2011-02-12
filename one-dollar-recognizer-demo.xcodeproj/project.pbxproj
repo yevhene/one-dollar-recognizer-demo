@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143F37B71306C50400F7547B /* triangle.template in Resources */ = {isa = PBXBuildFile; fileRef = 143F37B51306C50400F7547B /* triangle.template */; };
+		143F37B81306C50400F7547B /* x.template in Resources */ = {isa = PBXBuildFile; fileRef = 143F37B61306C50400F7547B /* x.template */; };
 		14FD6ED713069D7E00282F5B /* libone_dollar_recognizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FD6ED413069D7700282F5B /* libone_dollar_recognizer.a */; };
 		14FD6EF713069E1700282F5B /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD6EF613069E1700282F5B /* Globals.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143F37B51306C50400F7547B /* triangle.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = triangle.template; sourceTree = "<group>"; };
+		143F37B61306C50400F7547B /* x.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = x.template; sourceTree = "<group>"; };
 		14FD6ECB13069D7600282F5B /* one-dollar-recognizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "one-dollar-recognizer.xcodeproj"; path = "../one-dollar-recognizer/one-dollar-recognizer.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		14FD6EF513069E1700282F5B /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
 		14FD6EF613069E1700282F5B /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
@@ -77,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143F37B31306C50400F7547B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				143F37B41306C50400F7547B /* Templates */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		143F37B41306C50400F7547B /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				143F37B51306C50400F7547B /* triangle.template */,
+				143F37B61306C50400F7547B /* x.template */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
 		14FD6ECC13069D7600282F5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +153,7 @@
 				2860E324111B887F00E27156 /* iPhone */,
 				28EEBF621118D79A00187D67 /* Shared */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				143F37B31306C50400F7547B /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -232,6 +254,8 @@
 			files = (
 				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
 				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				143F37B71306C50400F7547B /* triangle.template in Resources */,
+				143F37B81306C50400F7547B /* x.template in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

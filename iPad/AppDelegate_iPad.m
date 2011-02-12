@@ -2,11 +2,12 @@
 //  AppDelegate_iPad.m
 //  one-dollar-recognizer-demo
 //
-//  Created by Yevhene Shemet on 12.02.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+
 
 #import "AppDelegate_iPad.h"
+
+#import "Globals.h"
+
 
 @implementation AppDelegate_iPad
 
@@ -16,12 +17,14 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    [Globals instance];
+
     // Override point for customization after application launch.
-    
+
     [window makeKeyAndVisible];
-    
+
     return YES;
 }
 
